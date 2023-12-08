@@ -47,7 +47,10 @@ h1, h2, h3, h4, h5, h6, p {
   overflow: hidden;
 }
 
-
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;;
+}
 
 
   ul, ol {
@@ -114,7 +117,25 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.07;
     letter-spacing: 0.02em;
   }
+
   
+ .features-set {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  list-style: none;
+ }
+
+ .features-item {
+  flex-basis: calc((100% - 72px) / 4);
+  
+  padding: 0;
+  background-color: #fff;
+  border-radius: 0;
+}
+ .features-text {
+  padding-top: 8px;
+ }
   .second-title, .three-title {
     color: #2E2F42;
   
@@ -143,6 +164,13 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+     box-shadow: 0px 4px 4px 0px rgba;
   }
   .button:hover,
   .button:focus {
