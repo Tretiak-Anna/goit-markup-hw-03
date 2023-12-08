@@ -14,13 +14,13 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
-  <!--.container { 
-    max-width: 
-    padding-left:  
-    padding-right:  
-    margin-left:  
-    margin-right:  
-    }-->
+ img {
+  display: block;
+ }
+
+ .header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .container {
   max-width: 1158px;
@@ -28,11 +28,25 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
 }
 
-.container-header-container {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-cont {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 15px;
+}
+
+
 
 .visually-hidden {
   position: absolute;
@@ -75,6 +89,7 @@ section {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
   }
   
   .logo-accent {
@@ -82,9 +97,19 @@ section {
   }
   .adress {
     font-style: normal;
+    justify-content: flex-end;
   }
+
+  .adress-list {
+    display: flex;
+    gap: 40px;
+  }
+
   .adress-link {
     color: #434455;
+    display: block;
+    padding: 24px 0;
+
   }
   .adress-link:hover,
   .adress-link:focus{
@@ -100,6 +125,7 @@ section {
   }
   .nav-link {
     color: #2e2f42;
+    padding: 24px 0;
   }
   .nav-link:hover,
   .nav-link:focus {
