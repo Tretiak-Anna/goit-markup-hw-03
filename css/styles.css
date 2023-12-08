@@ -188,7 +188,7 @@ section {
   border-radius: 0;
 }
 
-.features-item .three-title {
+.three-title {
   margin-bottom: 8px;
 }
  .features-text {
@@ -270,8 +270,8 @@ section {
   }
   footer {
     background-color: #2E2F42;
-    color: #F4F4FD
-    ;
+    color: #F4F4FD;
+    padding: 100px 0;
   }
   .logo-footer {
     color: #4D5AE5;
@@ -281,6 +281,8 @@ section {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
+  margin-bottom: 16px;
   }
   .logo-accent-footer {
     color: #F4F4FD;
