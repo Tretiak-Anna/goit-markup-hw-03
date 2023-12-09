@@ -41,7 +41,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .nav-list {
   display: inline-flex;
+  font-weight: 500;
   align-items: flex-start;
+  gap: 40px;
 }
 
 
@@ -118,10 +120,7 @@ section {
     color: #404BBF;
     ;
   }
-  .nav-list {
-    font-weight: 500;
-    gap: 40px;
-  }
+ 
   .nav-link {
     color: #2e2f42;
     padding: 24px 0;
