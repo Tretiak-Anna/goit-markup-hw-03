@@ -120,6 +120,7 @@ section {
   }
   .nav-list {
     font-weight: 500;
+    gap: 40px;
   }
   .nav-link {
     color: #2e2f42;
