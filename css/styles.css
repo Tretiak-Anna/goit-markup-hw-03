@@ -42,8 +42,6 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-list {
   display: inline-flex;
   align-items: flex-start;
-  gap: 40px;
-  padding: 0 15px;
 }
 
 
@@ -146,7 +144,9 @@ section {
     font-size: 56px;
     font-weight: 700;
     align-content: center;
-  margin: 0.83em auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
@@ -192,7 +192,7 @@ section {
   margin-bottom: 8px;
 }
  .features-text {
-  padding-top: 8px;
+  
  }
   .second-title, .three-title {
     color: #2E2F42;
@@ -266,7 +266,6 @@ section {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
   }
   footer {
     background-color: #2E2F42;
@@ -293,4 +292,5 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
   }
